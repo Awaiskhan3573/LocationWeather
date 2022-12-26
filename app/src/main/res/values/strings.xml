@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My First App</string>
+    <!--<string name="mapbox_access_token">pk.eyJ1IjoiY29tcGFzczAxIiwiYSI6ImNrcW04Zm02NTAwYjEydW1ocDQ3ZHZsZHoifQ.PYY3XCaQmJ0l3e05NXTgMw</string>-->
+    <string name="maptoken">pk.eyJ1IjoiY29tcGFzczAxIiwiYSI6ImNrcW04Zm02NTAwYjEydW1ocDQ3ZHZsZHoifQ.PYY3XCaQmJ0l3e05NXTgMw</string>
+</resources>

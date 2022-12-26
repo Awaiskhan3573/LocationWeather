@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="@dimen/_10sdp"/>
+    <Button
+        android:id="@+id/weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weather"
+        app:layout_constraintStart_toEndOf="@id/location"
+        android:layout_marginLeft="@dimen/_20sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="@dimen/_10sdp"/>
+    <Button
+        android:id="@+id/json"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Json"
+        app:layout_constraintStart_toEndOf="@id/weather"
+        android:layout_marginLeft="@dimen/_20sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="@dimen/_10sdp"/>
+    <Button
+        android:id="@+id/jsonEmployee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EmployeeJson"
+        android:layout_marginLeft="@dimen/_20sdp"
+       app:layout_constraintTop_toBottomOf="@id/weather"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="@dimen/_10sdp"/>
+    <Button
+        android:id="@+id/btnNearPlaces"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Near Places"
+        android:layout_marginLeft="@dimen/_20sdp"
+        app:layout_constraintTop_toBottomOf="@id/weather"
+        app:layout_constraintStart_toEndOf="@id/jsonEmployee"
+        android:layout_marginStart="@dimen/_10sdp"/>
+
+    <Button
+        android:id="@+id/btnMediaPlayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AUdio Play"
+        android:layout_marginLeft="@dimen/_20sdp"
+        app:layout_constraintTop_toBottomOf="@id/jsonEmployee"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="@dimen/_10sdp"/>
+    <Button
+        android:id="@+id/btnVideoPlayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Video Play"
+        android:layout_marginLeft="@dimen/_20sdp"
+        app:layout_constraintTop_toBottomOf="@id/jsonEmployee"
+        app:layout_constraintStart_toEndOf="@id/btnMediaPlayer"
+        android:layout_marginStart="@dimen/_10sdp"/>
+    <Button
+        android:id="@+id/btnMusicPlayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Music Player"
+        android:layout_marginLeft="@dimen/_20sdp"
+        app:layout_constraintTop_toBottomOf="@id/btnMediaPlayer"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="@dimen/_10sdp"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

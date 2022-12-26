@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "387754108983",
+    "firebase_url": "https://fcm-allapp-default-rtdb.firebaseio.com",
+    "project_id": "fcm-allapp",
+    "storage_bucket": "fcm-allapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387754108983:android:4df30e59aadd6bebad77b2",
+        "android_client_info": {
+          "package_name": "com.tools.navigationmapbox10"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "387754108983-i54u5rv6r9aldo5e3sqljvtgns38g0jo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyBMcCQZ6wTFNLPeE02g3hPbuCktstvJ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "387754108983-i54u5rv6r9aldo5e3sqljvtgns38g0jo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

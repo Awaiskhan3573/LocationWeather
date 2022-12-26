@@ -1,0 +1,12 @@
+[
+  {"name":"Salman", "age":"22", "city":"Agra"},
+  {"name":"Amit", "age":"29", "city":"Delhi"},
+  {"name":"Peter", "age":"31", "city":"Chennai"},
+  {"name":"Rahul", "age":"2", "city":"Mumbai"},
+  {"name":"Shashank", "age":"38", "city":"Kolkata"},
+  {"name":"Sarfaraz", "age":"34", "city":"Patna"},
+  {"name":"Ram", "age":"27", "city":"Asam"},
+  {"name":"Ruhi", "age":"28", "city":"Kerala"},
+  {"name":"Anushka", "age":"33", "city":"Karnataka"},
+  {"name":"Chaitanya", "age":"29", "city":"Bangalore"}
+]

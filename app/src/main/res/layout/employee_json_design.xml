@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:elevation="@dimen/_5sdp"
+    android:padding="@dimen/_5sdp"
+    android:layout_margin="@dimen/_10sdp"
+    android:background="@drawable/weather_details_shape"
+    android:backgroundTint="@color/darkSkyBlueColor">
+    <TextView
+        android:id="@+id/tvEmployeeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_12ssp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"/>
+    <TextView
+
+        android:id="@+id/tvEmployeeAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_12ssp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_20sdp"/>
+    <TextView
+
+        android:id="@+id/tvEmployeeCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_12ssp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/_20sdp"/>
+
+</LinearLayout>
